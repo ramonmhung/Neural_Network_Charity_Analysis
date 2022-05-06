@@ -24,30 +24,35 @@ Number of neurons, layers, and activation functions selected for the neural netw
 
 For the neural network model 2 hidden layers were selected. First layer had 80 neurons, the second has 30 plus an output layer. The first and second hidden layer have the "relu" activation function and the activation function for the output layer is "sigmoid."
 
-IMAGE M1
+![alt text](https://github.com/ramonmhung/Neural_Network_Charity_Analysis/blob/main/Resources/M1.png)
 
 Did the model achieved the target model performance?
 
 The model was not able to reach the target 75%. The accuracy for my model was 55%.
 
-IMAGE M2
+![alt text](https://github.com/ramonmhung/Neural_Network_Charity_Analysis/blob/main/Resources/M2.png)
 
 Steps to Improve the model 
 
 Attempt 1: Removed additional feature, that is the 'USE_CASE' column. Rest of the model components stayed the same. Accuracy improved to 69%
 
-IMAGE M3
-IMAGE M4
+![alt text](https://github.com/ramonmhung/Neural_Network_Charity_Analysis/blob/main/Resources/M3.png)
+![alt text](https://github.com/ramonmhung/Neural_Network_Charity_Analysis/blob/main/Resources/M4.png)
 
 Attempt 2: Adding Additional neurons to hidden layers and additional hidden layers are added. The accuracy decreased, this time it was 53%.
 
-IMAGE M5
-IMAGE M6
+![alt text](https://github.com/ramonmhung/Neural_Network_Charity_Analysis/blob/main/Resources/M5.png)
+![alt text](https://github.com/ramonmhung/Neural_Network_Charity_Analysis/blob/main/Resources/M6.png)
+
 
 Attempt 3: Changing activation function of output layer from "sigmoid" to "tanh." The accuracy of the model decreased even more to 47%
 
-IMAGE M7
-IMAGE M8
+![alt text](https://github.com/ramonmhung/Neural_Network_Charity_Analysis/blob/main/Resources/M7.png)
+![alt text](https://github.com/ramonmhung/Neural_Network_Charity_Analysis/blob/main/Resources/M8.png)
+
+## Summary 
+
+Model accuracy score was not to the standard with neural networks, using Random Forest classifiers would have been a better idea. The reason of this is that random forest is a robust and accurate model due to their sufficient number of estimators and tree depth. It's also possible to attest that random forest models provide a faster performance in comparison to neural networks and also the data could have not been overdrifted.
 
 
 
